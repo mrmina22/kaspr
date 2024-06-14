@@ -1,0 +1,42 @@
+/* When using Flexbox, you need to specify a width for your element in order to apply
+ the flex-basis property. This is because flex-basis determines the initial size of the flex item before 
+ any available space is distributed among the flex items. If you don't specify a width or flex-basis value, the flex
+  item will take up its default size, which is usually determined by the content
+ within it. By setting a width or flex-basis value, you can override the
+ default size and control how the flex item grows
+ or shrinks based on available space.
+*/
+
+
+
+
+
+
+ /* position absolute means to move according to his father  */
+/* position realtive means to move according to him   */
+/* absolute property, the element will be positioned relative to the nearest positined father.
+If no  father has a specified position (such as relative, absolute, or fixed),
+then the element will be positioned relative to the document body.*/
+
+
+
+
+
+/* overflowhidden beecase we put for the box position absolute and for the father a position realtive and in the box code
+we add bottom -100%  that means that it will get out the element completely and it will dissaper cause overflowhidden 
+and in case hover it will be 0 bootom so it will apper
+  */
+
+
+
+/* align items mean to to do as column justify as row allign 
+items talk the items that inside the content and allign content talk 
+the all content and the items inside it */
+
+
+
+
+
+
+
+/* container have a width margin right auto and left means that any width if have remaning distrbut equal right and left */

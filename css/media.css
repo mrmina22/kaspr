@@ -1,0 +1,214 @@
+/* Start Global Rules */
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* End Global Rules */
+/* Start Header Media */
+@media (max-width:767.50px) {
+    .header .container nav ul {
+        display: none;
+    }
+
+    .header .container .menu:hover+ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(0 0 0 / 50%);
+    }
+
+    .header .container .menu:hover+ul li a {
+        padding: 15px !important;
+    }
+}
+
+/* from 768px to up start the condition  lesser than 768px dont do the code */
+@media (min-width: 768px) {
+    .header .container nav .menu {
+        display: none;
+    }
+}
+/* End Header Media */
+/* Start Landing */
+@media (max-width: 767px) {
+    .landing .change-background {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .landing .text {
+        width: 100%;
+    }
+
+    .landing .text .content {
+        max-width: 100%;
+    }
+}
+/* End Landing */
+/* Start Services */
+@media (max-width: 767px) {
+    .Services .srv-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .Services .srv-box i {
+        margin: 30px;
+    }
+
+    .Services .srv-box h3+p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .Services .container .Services-content {
+        display: block;
+    }
+
+}
+/* End Services */
+/* Start Design */
+@media (max-width: 767px) {
+    .design .text {
+        width: 100%;
+    }
+
+    .design .text {
+        max-width: 100%;
+    }
+
+    .design .img {
+        display: none;
+    }
+}
+/* End Design */
+
+
+/* Start Portfolio */
+/* small  */
+@media (max-width: 768px) {
+    .portfolio .imgs-container .box {
+        flex-basis: 100%;
+    }
+}
+
+/* medium */
+@media (min-width: 992px) {
+    .portfolio .imgs-container .box {
+        flex-basis: 50%;
+    }
+}
+/* Large */
+@media (min-width: 1200px) {
+    .portfolio .imgs-container .box {
+        flex-basis: 25%;
+    }
+}
+/* End Portfolio */
+/* Start About */
+@media (max-width: 767px) {
+    .about img {
+        bottom: -60px;
+        margin-top: -60px;
+    }
+}
+/* End About */
+/* Start Stats */
+/* tiny */
+@media (max-width: 768px) {
+    .stats .container .box {
+        flex-basis: 100%;
+    }
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .stats .container .box {
+        flex-basis: 100%;
+    }
+}
+
+/* medium */
+@media (min-width: 992px) {
+    .stats .container .box {
+        flex-basis: 25%;
+    }
+}
+/* End Stats */
+/* Start Skills */
+@media (min-width:992px) {
+    .con-skills .container>div {
+        flex-basis: 45%;
+    }
+}
+
+@media (max-width: 767px) {
+    .con-skills .container .testimonials .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .con-skills .container .testimonials .content img {
+        margin: 0 auto 20px;
+    }
+}
+/* End Skills */
+/* Start Subscribe */
+@media (max-width: 991px) {
+    .subscribe .container p {
+        margin: 30px 0 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .subscribe .container {
+        flex-direction: column;
+    }
+}
+/* End Subscribe */
+/* Start Contact */
+@media (max-width:767px) {
+    .contact .container .con {
+        flex-direction: column;
+    }
+
+    .contact .container .con .info {
+        order: -1;
+        text-align: center;
+    }
+
+    .contact .container .con .info address {
+        margin-bottom: 40px;
+    }
+
+    .contact .container .con .info h4:last-of-type {
+        margin-top: 30px;
+    }
+
+}
+
+/* End Contact */
